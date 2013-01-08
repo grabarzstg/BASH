@@ -95,5 +95,6 @@ done
 *) echo "Wpisales niepoprawny numer." ;;
 esac
 
-echo -e "\n_______________________Koniec!_______________________"
+echo -e "\n______________________Koniec!______________________"
 ```
+
