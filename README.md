@@ -23,7 +23,7 @@ case $i in
 echo -e "\nPodaj rozszerzenie plikow, ktore chcesz posortowac"
 read extension
 
-echo -e "\nPodaj sciezke do miejsca z plikami .$extension"
+echo -e "\nPodaj pelna sciezke do miejsca z plikami .$extension"
 read dir
  
 sorted_dir="$dir/$extension"
@@ -44,7 +44,7 @@ done
 echo -e "\nPodaj nazwy plikow, ktore chcesz posortowac"
 read name
 
-echo -e "\nPodaj sciezke do miejsca z plikami $name .*"
+echo -e "\nPodaj pelna sciezke do miejsca z plikami $name .*"
 read dir
 
 sorted_dir="$dir/$name"
@@ -63,7 +63,7 @@ done
 echo -e "\nPodaj rozszerzenie plikow, ktore chcesz usunac"
 read extension
 
-echo -e "\nPodaj sciezke do miejsca z plikami .$extension"
+echo -e "\nPodaj pelna sciezke do miejsca z plikami .$extension"
 read dir
 
 quantity=`ls "$dir" | grep "$extension"`
@@ -77,7 +77,7 @@ done
 echo -e "\nPodaj nazwy plikow, ktore chcesz usunac"
 read name
 
-echo -e "\nPodaj sciezke do miejsca z plikami $name .*"
+echo -e "\nPodaj pelna sciezke do miejsca z plikami $name .*"
 read dir
 
 quantity=`ls "$dir" | grep "$name"`
