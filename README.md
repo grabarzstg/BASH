@@ -68,7 +68,7 @@ read dir
 
 quantity=`ls "$dir" | grep "$extension"`
 for image in "$dir"/*.$extension; do
-rm  "$image" 
+rm -f "$image" 
 
 done
 ;;
@@ -82,7 +82,7 @@ read dir
 
 quantity=`ls "$dir" | grep "$name"`
 for image in "$dir"/$name.*; do
-rm  "$image" 
+rm -f "$image" 
 
 done
 ;;
