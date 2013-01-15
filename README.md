@@ -1,3 +1,4 @@
+```sh
 #!/bin/bash
 # Skrypt segregujacy (lub usuwajacy) pliki wg podanego rozszerzenia (lub nazwy)
 # (c) Grabowski Marek 06.01.2012
@@ -80,3 +81,4 @@ else
 echo " (nacisniecie enter ponownie wyswietla liste)"
 fi
 done
+```
