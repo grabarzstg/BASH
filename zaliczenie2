@@ -1,4 +1,3 @@
-```sh
 #!/bin/bash
 # Skrypt segregujacy (lub usuwajacy) pliki wg podanego rozszerzenia (lub nazwy)
 # (c) Grabowski Marek 06.01.2012
@@ -15,7 +14,7 @@ read extension
 
 echo -e "\nPodaj sciezke do miejsca z plikami .$extension"
 read dir
- 
+
 sorted_dir="$dir/$extension"
 quantity=`ls "$dir" | grep "$extension"`
 
@@ -81,4 +80,3 @@ else
 echo " (nacisniecie enter ponownie wyswietla liste)"
 fi
 done
-```
